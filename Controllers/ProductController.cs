@@ -80,7 +80,6 @@ namespace MyApi.Controllers
             return NoContent();
         }
 
-        // DELETE: api/Products/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
